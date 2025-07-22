@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +7,41 @@
     <link rel="stylesheet" href="style.css">
     <style>
        nav{
-        height: 100em;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
        }
+      .item01 a{
+      padding-left: 15px;
+
+      }
+  input{
+    width: 300px;
+  }
     </style>
 </head>
 <body>
    <nav>
-    <div class="item01">exemplo</div>
-    <div class="item02">exemplo</div>
-    <div class="item03">exemplo</div>
+    <div class="item01">
+    <span>  
+    <a href="#">Menu</a>
+    <a href="#">YouTube</a>
+    </span></div>
+    <div class="item02">
+    <input type="text" placeholder="Pesquisa">
+     <span><a href="#">Teclado</a></span>
+     <span><a href="#">Pesquisa</a></span>
+     
+    </div>
+    <div class="item03">
+        <a href="#">Tres pontihos</a>
+        <a href="#">Fazer login</a>
+    </div>
    </nav>
+ <main>
 
 
-
+ </main>
 </body>
 </html>
