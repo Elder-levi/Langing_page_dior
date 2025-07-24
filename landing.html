@@ -1,47 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-       nav{
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-       }
-      .item01 a{
-      padding-left: 15px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord_Clone</title>
+  <style>
+    *{
+     margin: 0;
+     padding: 0;
+     box-sizing: none;
+    }
+ header{
+ background-image: url(/dio/img/fundo_header.png );
+ background-size: cover;
+ height: 50svh;
+ text-align: center;
+ }
+ 
+ header > h1{
+  color: white;
+  margin-bottom: 25px;
+ }
 
-      }
-  input{
-    width: 300px;
+  header > p {
+  color: white;
+  font-size: 10px;
+  width: 400px;
+  margin: auto;
   }
-    </style>
+
+
+  
+  button{
+   background-color: white;
+   border-radius: 25px;
+   margin-top: 25px;
+  }
+ 
+ #win{
+  height: 3em;
+  padding: 10px;
+ }
+ #Disc
+ {
+   height: 3em;
+   padding: 10px;
+   background-color: black;
+   color: white;
+ }
+ .top{
+  height: 50svh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .top article{
+  height: 400px;
+  width: 400px;
+  margin-top: 2em;
+ }
+
+ .top h1{
+ font-size: 25px;
+ }
+
+ .medio{
+   height: 50svh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .medio article{
+   height: 400px;
+  width: 400px;
+  margin-top: 2em;
+  margin-left: 6em;
+ }
+
+ .medio h1{
+  font-size: 25px;
+ }
+
+  </style>
 </head>
 <body>
-   <nav>
-    <div class="item01">
-    <span>  
-    <a href="#">Menu</a>
-    <a href="#">YouTube</a>
-    </span></div>
-    <div class="item02">
-    <input type="text" placeholder="Pesquisa">
-     <span><a href="#">Teclado</a></span>
-     <span><a href="#">Pesquisa</a></span>
-     
-    </div>
-    <div class="item03">
-        <a href="#">Tres pontihos</a>
-        <a href="#">Fazer login</a>
-    </div>
-   </nav>
- <main>
+  <header>
+          <h1>Imagene um Lugar</h1>
+         <p>…onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial. Onde você e alguns amigos possam passar um tempo juntos. Um lugar que torna fácil conversar todos os dias e socializar com mais frequência.</p>
+         <button id="win"><p>Baixar para Windows</p></button>
+         <button id="Disc"><p>Abra o Discord no seu navegador</p></button>
+  </header>
+  <main>
+    <section class="top">
+      
+       <img src="img/section_top.png" alt="" >
+      
+       <article>
+       <h1>Crie um espaço controlado por convite onde você se sinta em casa</h1>
+        <p>Os servidores Discord são organizados em canais com assuntos para vocês colaborarem, compartilharem ou simplesmente falarem do dia sem entupir um chat geral.</p>
+       </article>
+    </section>
+    <section class="medio">
+        
+        <article>
+       <h1> Aqui é fácil se encontrar</h1>
+        <p>Entre no canal de voz quando estiver à toa. Amigos no mesmo servidor podem te ver e entrar imediatamente, sem nem ter que fazer a chamada.
+</p>
+       </article>
 
-
- </main>
+       <img src="img/secton_Meio.png" alt="" >
+      
+    </section>
+  </main>
 </body>
 </html>
